@@ -8,7 +8,6 @@ const InputComponent = () => {
 
   const handleChange = (e) => {
     const value = e.target.value;
-    // Disallow spaces
     if (value.includes(" ")) {
       setError("Spaces are not allowed.");
     } else {
