@@ -21,7 +21,7 @@ const InputComponent = () => {
       setError("Please enter a token.");
       return;
     }
- 
+   
     try {
       const response = await axios.post("http://localhost:3000", {
         token: inputValue,
